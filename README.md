@@ -14,8 +14,10 @@ Se priorizó:
 - Uso de funciones para separar responsabilidades como la autenticación, el manejo de datos y la consulta de favoritos.
 
 Uso de Streamlit
-- Se eligió Streamlit como framework principal para la interfaz web debido a su simplicidad y facilidad de integración con Python. Streamlit permite:
 
+Se eligió Streamlit como framework principal para la interfaz web debido a su simplicidad y facilidad de integración con Python. 
+
+Streamlit permite:
 - Renderización rápida de DataFrames para visualizar y utilizar la información de la tabla usuarios.
 
 - Componentes interactivos como botones, tablas y formularios sin necesidad de escribir HTML o JavaScript.
