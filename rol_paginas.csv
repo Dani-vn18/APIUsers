@@ -1,0 +1,5 @@
+pagina,nombre,roles,icono
+home.py,Inicio,admin|evaluador,home
+pages\pageListado.py,Información | Listado - Datos API,admin|evaluador,add_notes
+pages\pageGraficos.py,Información | Listado - Gráficos,admin|evaluador,add_notes
+pages\pageFavoritos.py,Información | Listado - Favoritos,admin|evaluador,stars

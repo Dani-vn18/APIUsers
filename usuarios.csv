@@ -1,0 +1,13 @@
+id_usuario,usuario,nombre,clave,rol
+1,admin,admin,admin,admin
+2,usrEvaluador,Evaluador,evaluador123,evaluador
+3,Bret,Leanne Graham,12345,usuario
+4,Antonette,Ervin Howell,12345,usuario
+5,Samantha,Clementine Bauch,12345,usuario
+6,Karianne,Patricia Lebsack,12345,usuario
+7,Kamren,Chelsey Dietrich,12345,usuario
+8,Leopoldo_Corkery,Mrs. Dennis Schulist,12345,usuario
+9,Elwyn.Skiles,Kurtis Weissnat,12345,usuario
+10,Maxime_Nienow,Nicholas Runolfsdottir V,12345,usuario
+11,Delphine,Glenna Reichert,12345,usuario
+12,Moriah.Stanton,Clementina DuBuque,12345,usuario
