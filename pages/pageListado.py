@@ -3,7 +3,7 @@ import pandas as pd
 import login as login
 from utilitaries import get_users, detalle_usuario
 
-archivo=__file__.split("\\")[-1]
+archivo = __file__.split("/")[-1]
 login.generarLogin(archivo)
 if 'usuario' in st.session_state:
     
