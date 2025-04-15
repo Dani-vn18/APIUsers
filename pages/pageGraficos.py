@@ -4,7 +4,7 @@ import login as login
 import plotly.express as px
 from utilitaries import get_users
 
-archivo=__file__.split("\\")[-1]
+archivo = __file__.split("/")[-1]
 login.generarLogin(archivo)
 if 'usuario' in st.session_state:
     
