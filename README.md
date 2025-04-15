@@ -5,6 +5,7 @@ Objetivo del Proyecto
 Este proyecto consiste en una aplicación web interactiva para visualizar y gestionar información de usuarios a partir de la API pública de JSONPlaceholder. Además, permite a los usuarios autenticados marcar otros usuarios como favoritos, simulando la persistencia en una base de datos DuckDB.
 
 Uso de Python y Paradigma Funcional
+
 El proyecto está desarrollado en Python, aprovechando el paradigma de programación funcional para lograr un código modular, reutilizable y fácil de escalar. 
 
 Se priorizó:
@@ -15,7 +16,7 @@ Se priorizó:
 Uso de Streamlit
 - Se eligió Streamlit como framework principal para la interfaz web debido a su simplicidad y facilidad de integración con Python. Streamlit permite:
 
-- Renderización rápida de DataFrames para visualizar y editar información de usuarios.
+- Renderización rápida de DataFrames para visualizar y utilizar la información de la tabla usuarios.
 
 - Componentes interactivos como botones, tablas y formularios sin necesidad de escribir HTML o JavaScript.
 
@@ -28,7 +29,7 @@ Sistema de autenticación simulado basado en cookies para identificar el usuario
 
 Funcionalidad de "Marcar como Favorito" para registrar usuarios seleccionados en una base de datos.
 
-Persistencia de datos utilizando DuckDB (Base de Datos en Memoria), simulando una estructura relacional como PostgreSQL o MySQL.
+Persistencia de datos utilizando DuckDB.
 
 🏛️ Diseño de la Base de Datos Relacional (PostgreSQL / MySQL)
 
