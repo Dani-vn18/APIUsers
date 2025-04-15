@@ -4,6 +4,21 @@ Objetivo del Proyecto
 
 Este proyecto consiste en una aplicación web interactiva para visualizar y gestionar información de usuarios a partir de la API pública de JSONPlaceholder. Además, permite a los usuarios autenticados marcar otros usuarios como favoritos, simulando la persistencia en una base de datos DuckDB.
 
+Uso de Python y Paradigma Funcional
+El proyecto está desarrollado en Python, aprovechando el paradigma de programación funcional para lograr un código modular, reutilizable y fácil de escalar. 
+
+Se priorizó:
+- Funciones puras que reciben datos y retornan nuevos valores sin modificar estados globales.
+
+- Uso de funciones para separar responsabilidades como la autenticación, el manejo de datos y la consulta de favoritos.
+
+Uso de Streamlit
+- Se eligió Streamlit como framework principal para la interfaz web debido a su simplicidad y facilidad de integración con Python. Streamlit permite:
+
+- Renderización rápida de DataFrames para visualizar y editar información de usuarios.
+
+- Componentes interactivos como botones, tablas y formularios sin necesidad de escribir HTML o JavaScript.
+
 🚀 Contenido del Proyecto
 Conexión a la API JSONPlaceholder para obtener la lista de usuarios.
 
@@ -16,7 +31,13 @@ Funcionalidad de "Marcar como Favorito" para registrar usuarios seleccionados en
 Persistencia de datos utilizando DuckDB (Base de Datos en Memoria), simulando una estructura relacional como PostgreSQL o MySQL.
 
 🏛️ Diseño de la Base de Datos Relacional (PostgreSQL / MySQL)
-Para diseñar la estructura de una base de datos relacional en PostgreSQL o MySQL, la mejor práctica sería definir dos tablas: usuarios y favoritos, estableciendo una relación de uno-a-muchos.
+
+Para simular una estructura relacional, se usa DuckDB, una base de datos en memoria. 
+
+Se diseñaron dos tablas con una relación uno-a-muchos:
+
+1️⃣ Usuarios: Almacena la información básica de los usuarios del sistema. 
+2️⃣ Favoritos: Relaciona el usuario autenticado con los usuarios que ha marcado como favoritos.
 
 📂 Tabla de usuarios
 Almacena información de todos los usuarios del sistema.
