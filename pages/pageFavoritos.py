@@ -4,7 +4,7 @@ import login as login
 import duckdb
 from utilitaries import get_users, detalle_usuario, crear_base_datos, insertar_favorito
 
-archivo=__file__.split("\\")[-1]
+archivo = __file__.split("/")[-1]
 login.generarLogin(archivo)
 if 'usuario' in st.session_state:
     
